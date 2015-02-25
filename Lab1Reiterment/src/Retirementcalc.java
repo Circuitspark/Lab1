@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Retirementcalc {
 
-	//PV and PMT usage instructions unclear, unable to utilize properly...
+	//pv and pmt were poorly explained and therefore difficult to implement properly as it was hard to figure
+	//out what variable went in each slot for the methods, code was written assuming pv and pmt were properly applied..
 	 public static double pv(double r, double n, double y, double f, boolean t) {
 	        double retval = 0;
 	        if (r == 0) {
