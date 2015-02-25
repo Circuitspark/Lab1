@@ -1,8 +1,8 @@
 import java.util.Scanner;
-import java.util.*;
 
 public class Retirementcalc {
 
+	//PV and PMT usage instructions unclear, unable to utilize properly...
 	 public static double pv(double r, double n, double y, double f, boolean t) {
 	        double retval = 0;
 	        if (r == 0) {
